@@ -200,7 +200,8 @@ main > section{
     .navbar, 
     .nav-links,
     .features,
-    .teams{
+    .teams,
+    .footer-description{
         flex-direction: column;
     }
     .team-img-container,
@@ -223,6 +224,11 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer-description{
+        height: 100%;
+        width: 100%;
+    
+    }
 }
 /* medium sze device */
 @media screen and (min-width: 576px) and (max-width:992px) {
@@ -240,5 +246,10 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer-description{
+        height: 100%;
+        width: 100%;
+    
     }
 }
